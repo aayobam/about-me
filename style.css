@@ -1,0 +1,277 @@
+body {
+    margin: 0 auto;
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header style*/
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background: #04AA6D;
+    color: white;
+}
+
+/*footer style*/
+footer{
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding: 14px 16px;
+}
+
+footer a{
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* user login style*/
+.user-login{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 120px;
+    background-color: green;
+    width: 40%;
+    padding: 5px 0px 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px;
+    opacity: 0.9;
+}
+
+
+#email {
+    margin-top: -30px !important;
+}
+
+.user-login #email, #password, #login-btn{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60%;
+    margin: 5px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.user-login #email:hover, #password:hover{
+    border: 5px solid red;
+}
+
+.user-login #login-btn:hover{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: wheat;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1115px){
+    .user-login{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .user-login{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .user-login{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .user-login #email, #password{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .user-login #email, #password{
+        width: 60%;
+    }
+    .user-login{
+        margin-top: 80px;
+    }
+}
+
+/* user register style*/
+.register{
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    background-color: green;
+    width: 40%;
+    padding: 5px 0px 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px;
+    opacity: 0.9;
+}
+
+
+.register #first-name, #last-name, #phone-number, #gender, #country, #province, #email1, #password1, #password2, #register-btn{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60%;
+    margin: 5px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.register #register-btn:hover{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: wheat;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1115px){
+    .register{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .register{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .register{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .register #email1, #password1, #password2{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .register #email1, #password1, #password2{
+        width: 60%;
+    }
+    .register{
+        margin-top: 80px;
+    }
+}
+
+/* contact page style*/
+.contact{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    background-color: green;
+    width: 40%;
+    padding: 5px 0px 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px;
+    opacity: 0.9;
+}
+
+.contact #name, #contact-email, #message, #send-mail-btn{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60%;
+    margin: 5px 0px 0px 0px;
+    font-size: 17px;
+}
+
+
+.contact #send-mail-btn:hover{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: wheat;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1115px){
+    .contact{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .contact{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .contact{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .contact #name, #contact-email, #message{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .contact #name, #contact-email, #message{
+        width: 60%;
+    }
+    .contact{
+        margin-top: 80px;
+    }
+}
+
+/* about me page style */
+
+.about{
+    margin: 0px auto;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.about img{
+    border-radius: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+.about .my-info{
+    text-align: center;
+}
+
+.about .hobby{
+    padding-left: 200px !important;
+}
