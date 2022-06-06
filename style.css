@@ -255,23 +255,139 @@ footer a:hover{
 }
 
 /* about me page style */
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
 
 .about{
     margin: 0px auto;
     margin-top: 50px;
     font-size: 17px;
+    list-style-position: inside;
+    border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
 .about img{
     border-radius: 200px;
     float: left;
     margin-left: 50px;
+    padding: 20px;
 }
 
 .about .my-info{
-    text-align: center;
+    padding: 0px 20px 0px 20px;
 }
 
 .about .hobby{
-    padding-left: 200px !important;
+    padding-left: 20px;
+}
+
+.about .priority, .other-skills{
+    padding: 0px 10px 0px 10px;
+}
+
+.source-code a{
+    border-radius: 20px;
+    color: green;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: yellow;
+    margin-bottom: 50px !important;
+}
+
+.source-code a:hover{
+    background: green;
+    color: yellow;
+}
+
+.contact-btn a{
+    background-color: yellow;
+    color: green;
+    text-decoration: none;
+    
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin: 300px 0px 400px 500px;
+}
+
+.contact-btn a:hover{
+    background: green;
+    color: yellow;
+}
+
+
+@media only screen and (max-width: 920px){
+    .contact-btn a{
+        margin-left: 30px;
+    }
+    .contact-btn{
+        margin: 25px 0px 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .about .hobby{
+        padding: 0px 15px 0px 15px;
+    }
+
+    .about img{
+        margin-top: -40px !important;
+    }
+
+    .about .my-info{
+        padding: 450px 15px 0px 15px;
+    }
+
+    .my-info{
+        padding-top: 380px !important;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    img{
+        width: 85%;
+        margin-left: 20px !important;
+    }
+    .my-info{
+        padding-top: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .about img{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .my-info{
+        padding-top: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .about img{
+        width: 90%;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .about img{
+        width: 90%;
+        margin-left: -5px !important;
+    }
+    .my-info{
+        padding-top: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .about img{
+        width: 88%;
+        margin-left: -5px !important;
+    }
 }
