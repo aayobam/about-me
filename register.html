@@ -19,7 +19,7 @@
        </header>
         
         <main class="register">
-            <form action="" enctype="multipart/form-data" method="post">
+            <form action="" onsubmit="return validatePassword()" enctype="multipart/form-data" method="post">
 
                 <h1>User Registration</h1>
                 <input type="text" name="first-name" id="first-name" placeholder="Enter First name" required><br>
@@ -36,8 +36,12 @@
                 <input type="text" name="province" id="province" placeholder="Enter state/province" required><br>
 
                 <input type="email" id="email1" placeholder="Enter email" required><br>
+
                 <input type="password" id="password1" placeholder="Enter password" required><br>
+                <span id="invalid-password" style="color:red"></span>
+
                 <input type="password" id="password2" placeholder="Enter confirm password" required><br>
+                <span id="confirm-password-message" style="color:red"></span>
 
                 <input type="submit" id="register-btn" value="Sign Up">
             </form>
@@ -50,8 +54,8 @@
                 <a href="https://twitter.com/yungelda">Twitter</a>
                 <a href="https://linkedin.com/in/aayobam">Linkedin</a>
             </div>
-           
        </footer>
 
+       <script src="./custom.js"></script>
     </body>
 </html>
